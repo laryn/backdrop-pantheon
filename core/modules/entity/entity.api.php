@@ -126,6 +126,8 @@
  *
  * @see entity_load()
  * @see hook_entity_info_alter()
+ *
+ * @since 1.32.0 The "label callback" key was restored.
  */
 function hook_entity_info() {
   $return = array(
